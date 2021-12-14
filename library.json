@@ -1,62 +1,71 @@
 {
-  "title": "Multiple Choice",
-  "contentType": "Question",
-  "majorVersion": 1,
-  "minorVersion": 15,
-  "patchVersion": 0,
-  "runnable": 1,
-  "embedTypes": [
-    "iframe"
-  ],
-  "machineName": "H5P.MultiChoice",
-  "author": "Joubel",
-  "license": "MIT",
-  "coreApi": {
+    "title": "Multiple Choice With Media",
+    "contentType": "Question",
     "majorVersion": 1,
-    "minorVersion": 19
-  },
-  "preloadedJs": [
-    {
-      "path": "js/multichoice.js"
-    }
-  ],
-  "preloadedCss": [
-    {
-      "path": "css/multichoice.css"
-    }
-  ],
-  "preloadedDependencies": [
-    {
-      "machineName": "FontAwesome",
-      "majorVersion": 4,
-      "minorVersion": 5
+    "minorVersion": 0,
+    "patchVersion": 4,
+    "runnable": 1,
+    "embedTypes": [
+        "iframe"
+    ],
+    "machineName": "H5P.MultiChoiceMedia",
+    "author": "Joubel, Matthias Nötzli",
+    "license": "MIT",
+    "coreApi": {
+        "majorVersion": 1,
+        "minorVersion": 0
     },
-    {
-      "machineName": "EmbeddedJS",
-      "majorVersion": 1,
-      "minorVersion": 0
-    },
-    {
-      "machineName": "H5P.JoubelUI",
-      "majorVersion": 1,
-      "minorVersion": 3
-    },
-    {
-      "machineName": "H5P.Question",
-      "majorVersion": 1,
-      "minorVersion": 5
-    }
-  ],
-  "editorDependencies": [
-    {
-      "machineName": "H5PEditor.RangeList",
-      "majorVersion": 1,
-      "minorVersion": 0
-    },
-    {
-      "machineName": "H5PEditor.ShowWhen",
-      "majorVersion": 1,
-      "minorVersion": 0
-    }
-  ]
+    "preloadedJs": [{
+        "path": "js/multichoice.js"
+    }],
+    "preloadedCss": [{
+        "path": "css/multichoice.css"
+    }],
+    "preloadedDependencies": [{
+            "machineName": "FontAwesome",
+            "majorVersion": 4,
+            "minorVersion": 5
+        },
+        {
+            "machineName": "EmbeddedJS",
+            "majorVersion": 1,
+            "minorVersion": 0
+        },
+        {
+            "machineName": "H5P.JoubelUI",
+            "majorVersion": 1,
+            "minorVersion": 3
+        },
+        {
+            "machineName": "H5P.Question",
+            "majorVersion": 1,
+            "minorVersion": 5
+        },
+        {
+            "machineName": "H5P.Image",
+            "majorVersion": 1,
+            "minorVersion": 1
+        },
+        {
+            "machineName": "H5P.Video",
+            "majorVersion": 1,
+            "minorVersion": 5
+        },
+        {
+            "machineName": "H5P.AdvancedText",
+            "majorVersion": 1,
+            "minorVersion": 1
+        }
+    ],
+    "editorDependencies": [{
+            "machineName": "H5PEditor.RangeList",
+            "majorVersion": 1,
+            "minorVersion": 0
+        },
+        {
+            "machineName": "H5PEditor.ShowWhen",
+            "majorVersion": 1,
+            "minorVersion": 0
+        }
+    ]
 }
