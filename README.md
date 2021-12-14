@@ -1,10 +1,9 @@
-H5P Multi Choice
+H5P Multi Choice with Media
 ==========
 
 Test your users with multiple choice tasks.
 Can be used in Question Sets, Course Presentations and Interactive Videos.
-
-[See it in action on the H5P.org project page](https://h5p.org/multichoice)
+Questions and Feedback can contain text, image and video elements.
 
 ## License
 
